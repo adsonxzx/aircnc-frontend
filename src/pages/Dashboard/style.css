@@ -1,0 +1,65 @@
+
+/* Dashboard */
+.dashboard  {
+  display: flex;
+  flex-direction: column;
+}
+
+/* User Actions */
+.user-actions {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.user-actions .aceita {
+  color: green;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.user-actions .rejeitar {
+  color: red;
+  cursor: pointer;
+}
+
+/* List Spots */
+.list-spots {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.card-spot {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 30px;
+}
+
+.card-spot header {
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-spot img {
+  max-width: 100%;
+}
+
+.card-spot .company {
+  font-weight: bold;
+  font-size: 18px;
+  color: #444;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.card-spot .price {
+  font-size: 14px;
+  color: #999;
+}
